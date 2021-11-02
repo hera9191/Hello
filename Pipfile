@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+requests = "*"
+
+[dev-packages]
+mypy = "*"
+pytest = "*"
+types-requests = "*"
+flake8 = "*"
+tox = "*"
+pytest-cov = "*"
+
+[requires]
+python_version = "3.9"
